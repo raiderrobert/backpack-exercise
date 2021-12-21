@@ -10,17 +10,8 @@ We're making a magical backpack. It has some simple features:
 - Has a way to check to see what the most popular item is
 - If you overfill the bag, it drops the item you put in first. That is, if the bag `size` is 1, it will only contain the last item you put in.
 
-Use whatever features you like baked into whatever version of Python you want. There shouldn't be a need to install any outside packages.
+## Guidelines
 
-## Run unit tests
+You may refactor the stubbed out code in `main` as you like, but you may not change the code in tests.py to match them. Treat it as an API contract that you must keep.
 
-There are a set of tests. Make them pass to implement all these features.
-
-```
-% python tests.py              
-.........
-----------------------------------------------------------------------
-Ran 9 tests in 0.001s
-
-OK
-```
+There are a set of tests for each language. Implement all these features, and they'll pass.
